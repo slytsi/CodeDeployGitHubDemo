@@ -3,6 +3,29 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+
+  - source: /images/01.jpeg
+    destination: /var/www/html/images
+  
+  - source: /images/02.jpeg
+    destination: /var/www/html/images
+  
+  - source: /images/03.jpeg
+    destination: /var/www/html/images
+  
+  - source: /images/04.jpeg
+    destination: /var/www/html/images
+  
+  - source: /images/05.jpeg
+    destination: /var/www/html/images
+  
+  - source: /images/06.jpeg
+    destination: /var/www/html/images
+
+  - source: /images/07.jpeg
+    destination: /var/www/html/images
+
+
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
